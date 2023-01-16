@@ -66,12 +66,12 @@
   },
   {
    "fieldname": "date_of_brith",
-   "fieldtype": "Data",
+   "fieldtype": "Datetime",
    "label": "Date of Brith"
   },
   {
    "fieldname": "date_of_joining",
-   "fieldtype": "Data",
+   "fieldtype": "Datetime",
    "label": "Date Of Joining"
   },
   {
@@ -93,7 +93,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-14 15:47:44.588704",
+ "modified": "2023-01-15 16:57:53.144815",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Employee",
