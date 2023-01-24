@@ -66,7 +66,7 @@
   },
   {
    "fieldname": "date_of_brith",
-   "fieldtype": "Datetime",
+   "fieldtype": "Date",
    "label": "Date of Brith"
   },
   {
