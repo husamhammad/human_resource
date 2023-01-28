@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:department_name",
+ "autoname": "DEP-.##",
  "creation": "2023-01-14 14:53:44.793962",
  "default_view": "List",
  "doctype": "DocType",
@@ -14,17 +14,16 @@
   {
    "fieldname": "department_name",
    "fieldtype": "Data",
-   "label": "Department Name",
-   "unique": 1
+   "label": "Department Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-14 14:53:44.793962",
+ "modified": "2023-01-22 22:33:23.361407",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Department",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

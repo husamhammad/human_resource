@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:full_name",
+ "autoname": "EMP-.####",
  "creation": "2023-01-14 15:46:21.883384",
  "default_view": "List",
  "doctype": "DocType",
@@ -20,7 +20,8 @@
   "date_of_joining",
   "department",
   "section_break_i0mp",
-  "employee_info"
+  "employee_info",
+  "count_education"
  ],
  "fields": [
   {
@@ -42,6 +43,7 @@
    "fieldname": "full_name",
    "fieldtype": "Data",
    "label": "Full Name",
+   "read_only": 1,
    "unique": 1
   },
   {
@@ -89,15 +91,20 @@
   {
    "fieldname": "section_break_i0mp",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "count_education",
+   "fieldtype": "Data",
+   "label": "count education"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-15 16:57:53.144815",
+ "modified": "2023-01-18 16:44:53.783095",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Employee",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
