@@ -57,13 +57,12 @@
   {
    "fieldname": "total_leaves_allocated",
    "fieldtype": "Data",
-   "label": "Total Leaves Allocated",
-   "read_only": 1
+   "label": "Total Leaves Allocated"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-24 11:36:48.942314",
+ "modified": "2023-01-28 14:51:45.980004",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "leave Allocation",

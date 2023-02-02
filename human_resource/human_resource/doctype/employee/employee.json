@@ -1,13 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "EMP-.####",
+ "autoname": "field:user",
  "creation": "2023-01-14 15:46:21.883384",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "user",
   "first_name",
   "middle_name",
   "last_name",
@@ -25,16 +26,19 @@
  ],
  "fields": [
   {
+   "fetch_from": "user.first_name",
    "fieldname": "first_name",
    "fieldtype": "Data",
    "label": "First Name"
   },
   {
+   "fetch_from": "user.middle_name",
    "fieldname": "middle_name",
    "fieldtype": "Data",
    "label": "Middle Name"
   },
   {
+   "fetch_from": "user.last_name",
    "fieldname": "last_name",
    "fieldtype": "Data",
    "label": "Last Name"
@@ -96,15 +100,22 @@
    "fieldname": "count_education",
    "fieldtype": "Data",
    "label": "count education"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-18 16:44:53.783095",
+ "modified": "2023-02-02 02:24:47.768992",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Employee",
- "naming_rule": "Expression (old style)",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
