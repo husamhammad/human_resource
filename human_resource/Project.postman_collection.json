@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "2d7e9a49-ea69-4883-a496-69cdfe0eae21",
+		"name": "Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24553261"
+	},
+	"item": [
+		{
+			"name": "Create Attendance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "attendance_date",
+							"value": "2023-02-01",
+							"type": "text"
+						},
+						{
+							"key": "check_in",
+							"value": "08:30:00",
+							"type": "text"
+						},
+						{
+							"key": "check_out",
+							"value": "16:30:00",
+							"type": "text"
+						},
+						{
+							"key": "user",
+							"value": "moha@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/method/human_resource.api.create_attendance",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"method",
+						"human_resource.api.create_attendance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "frappe login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "token 2a3547aea156d60:3ed98c5c62ce449",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"usr\":\"administrator\",\n\"pwd\":\"root\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/method/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"method",
+						"login"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
