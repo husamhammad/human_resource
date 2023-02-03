@@ -10,7 +10,13 @@
 			"name": "Create Attendance",
 			"request": {
 				"method": "POST",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "token 2a3547aea156d60:3ed98c5c62ce449",
+						"type": "text"
+					}
+				],
 				"body": {
 					"mode": "urlencoded",
 					"urlencoded": [
