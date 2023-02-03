@@ -11,7 +11,7 @@ import frappe
 #################################################################################3
 #Function To Create Attendance For Employee When Make Request By Using Api
 
-@frappe.whitelist(allow_guest=True)
+@frappe.whitelist()
 def create_attendance(attendance_date, check_in, check_out, user=""):
     # Check If The Required Fields Are Present
     if  not attendance_date or not check_in or not check_out:
