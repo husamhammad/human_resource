@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:user",
+ "autoname": "####",
  "creation": "2023-01-14 15:46:21.883384",
  "default_view": "List",
  "doctype": "DocType",
@@ -105,17 +105,16 @@
    "fieldname": "user",
    "fieldtype": "Link",
    "label": "User",
-   "options": "User",
-   "unique": 1
+   "options": "User"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-02 02:24:47.768992",
+ "modified": "2023-02-04 14:33:56.341151",
  "modified_by": "Administrator",
  "module": "Human Resource",
  "name": "Employee",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
